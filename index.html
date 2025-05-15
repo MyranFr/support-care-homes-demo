@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Support and Care Homes</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -23,46 +26,160 @@
     </nav>
   </header>
   <main>
-    <section class="hero">
-      <div class="hero-content">
+    <!-- Hero Section -->
+    <section class="hero-v2">
+      <div class="hero-overlay"></div>
+      <div class="hero-content-v2">
         <h1>Welcome to Support & Care Homes</h1>
-        <p>Providing compassionate, professional care in a warm and welcoming environment. Discover a place where your loved ones feel at home.</p>
+        <p>Compassionate care, beautiful surroundings, and a vibrant community for your loved ones.</p>
         <a href="#book-tour" class="cta-btn">Book a Tour</a>
       </div>
-      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80" alt="Care Home" class="hero-img">
     </section>
-    <section class="features">
-      <div class="feature">
-        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Assisted Living">
+    <!-- Feature/Service Cards -->
+    <section class="features-v2">
+      <div class="feature-card">
+        <img src="https://img.icons8.com/ios-filled/100/3a6b5c/elderly-person.png" alt="Assisted Living Icon">
         <h2>Assisted Living</h2>
         <p>Personalized support and vibrant community life for every resident.</p>
       </div>
-      <div class="feature">
-        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Memory Care">
+      <div class="feature-card">
+        <img src="https://img.icons8.com/ios-filled/100/3a6b5c/brain.png" alt="Memory Care Icon">
         <h2>Memory Care</h2>
         <p>Specialized care and activities for those with memory challenges.</p>
       </div>
-      <div class="feature">
-        <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80" alt="Community">
+      <div class="feature-card">
+        <img src="https://img.icons8.com/ios-filled/100/3a6b5c/group-foreground-selected.png" alt="Community Icon">
         <h2>Community</h2>
         <p>Engaging events, activities, and a supportive environment for all.</p>
       </div>
+      <div class="feature-card">
+        <img src="https://img.icons8.com/ios-filled/100/3a6b5c/bedroom.png" alt="Respite Care Icon">
+        <h2>Respite Care</h2>
+        <p>Short-term stays and post-surgery support in a caring environment.</p>
+      </div>
     </section>
-    <section class="book-tour" id="book-tour">
-      <h2>Book a Tour</h2>
-      <p>See our facilities and meet our caring staff. Schedule a visit today!</p>
-      <form action="https://formspree.io/f/mnqkzjzv" method="POST" class="tour-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <input type="tel" name="phone" placeholder="Your Phone Number">
-        <input type="date" name="date" required>
-        <textarea name="message" placeholder="Any special requests?"></textarea>
-        <button type="submit">Book Now</button>
-      </form>
+    <!-- Welcome/About Section -->
+    <section class="about-welcome">
+      <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80" alt="Welcome to our community">
+      </div>
+      <div class="about-text">
+        <h2>Experience Comfort & Care</h2>
+        <p>Our boutique community offers breathtaking views, beautiful gardens, and a warm, welcoming atmosphere. With 24/7 care, daily activities, and chef-prepared meals, your loved ones will feel right at home.</p>
+        <ul>
+          <li>Round-the-clock care managers</li>
+          <li>Onsite nurses and therapy</li>
+          <li>Engaging activities and events</li>
+          <li>Family-friendly environment</li>
+        </ul>
+      </div>
     </section>
+    <!-- Amenities Grid -->
+    <section class="amenities">
+      <h2>Our Amenities</h2>
+      <div class="amenities-grid">
+        <div class="amenity"><img src="https://img.icons8.com/ios-filled/50/3a6b5c/bed.png" alt="Private Suites">Private Suites</div>
+        <div class="amenity"><img src="https://img.icons8.com/ios-filled/50/3a6b5c/restaurant.png" alt="All-Day Dining">All-Day Dining</div>
+        <div class="amenity"><img src="https://img.icons8.com/ios-filled/50/3a6b5c/garden.png" alt="Gardens">Gardens</div>
+        <div class="amenity"><img src="https://img.icons8.com/ios-filled/50/3a6b5c/dog.png" alt="Pet Friendly">Pet Friendly</div>
+        <div class="amenity"><img src="https://img.icons8.com/ios-filled/50/3a6b5c/doctor-male.png" alt="Onsite Nurses">Onsite Nurses</div>
+        <div class="amenity"><img src="https://img.icons8.com/ios-filled/50/3a6b5c/therapy.png" alt="Therapy Center">Therapy Center</div>
+        <div class="amenity"><img src="https://img.icons8.com/ios-filled/50/3a6b5c/party-balloons.png" alt="Events">Events & Activities</div>
+        <div class="amenity"><img src="https://img.icons8.com/ios-filled/50/3a6b5c/parking.png" alt="Parking">Parking</div>
+      </div>
+    </section>
+    <!-- Gallery Preview -->
+    <section class="gallery-preview">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Facility 1">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Facility 2">
+        <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80" alt="Facility 3">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Facility 4">
+      </div>
+    </section>
+    <!-- Testimonial Carousel -->
+    <section class="testimonials-carousel">
+      <h2>What Our Residents & Families Say</h2>
+      <div class="carousel-container">
+        <div class="carousel-slide active">
+          <blockquote>“The staff are so caring and attentive. My mother feels truly at home here.”<br><span>- Jane D.</span></blockquote>
+        </div>
+        <div class="carousel-slide">
+          <blockquote>“Beautiful facilities and wonderful activities. Highly recommended!”<br><span>- Mark S.</span></blockquote>
+        </div>
+        <div class="carousel-slide">
+          <blockquote>“The food is delicious and the gardens are stunning. We love visiting!”<br><span>- Emily R.</span></blockquote>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-prev" aria-label="Previous testimonial">&#8592;</button>
+        <button class="carousel-next" aria-label="Next testimonial">&#8594;</button>
+      </div>
+    </section>
+    <!-- Virtual Tour Teaser -->
+    <section class="virtual-tour-teaser">
+      <h2>Take a Virtual Tour</h2>
+      <p>Explore our beautiful community from the comfort of your home.</p>
+      <a href="virtual-tour.html" class="cta-btn">Start Virtual Tour</a>
+    </section>
+    <!-- Book a Tour Modal Trigger -->
+    <section class="book-tour-modal-trigger" id="book-tour">
+      <button class="cta-btn" onclick="document.getElementById('bookTourModal').style.display='block'">Book a Tour</button>
+    </section>
+    <!-- Book a Tour Modal -->
+    <div id="bookTourModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="document.getElementById('bookTourModal').style.display='none'">&times;</span>
+        <h2>Book a Tour</h2>
+        <form action="https://formspree.io/f/mnqkzjzv" method="POST" class="tour-form">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="tel" name="phone" placeholder="Your Phone Number">
+          <input type="date" name="date" required>
+          <textarea name="message" placeholder="Any special requests?"></textarea>
+          <button type="submit">Book Now</button>
+        </form>
+      </div>
+    </div>
   </main>
   <footer>
-    <p>&copy; 2024 Support & Care Homes. All rights reserved.</p>
+    <div class="footer-content">
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>123 Care Lane, Comfort City, CA 90000</p>
+        <p>Email: info@supportcarehomes.com</p>
+        <p>Phone: (555) 123-4567</p>
+      </div>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><img src="https://img.icons8.com/ios-filled/30/3a6b5c/facebook-new.png" alt="Facebook"></a>
+        <a href="#" aria-label="Instagram"><img src="https://img.icons8.com/ios-filled/30/3a6b5c/instagram-new.png" alt="Instagram"></a>
+        <a href="#" aria-label="X"><img src="https://img.icons8.com/ios-filled/30/3a6b5c/twitterx.png" alt="X"></a>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; 2024 Support & Care Homes. All rights reserved.</p>
   </footer>
+  <script>
+    // Simple testimonial carousel
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentSlide = 0;
+    document.querySelector('.carousel-next').onclick = function() {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('active');
+    };
+    document.querySelector('.carousel-prev').onclick = function() {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      slides[currentSlide].classList.add('active');
+    };
+    // Modal close on outside click
+    window.onclick = function(event) {
+      const modal = document.getElementById('bookTourModal');
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
 </body>
-</html> 
+</html>
